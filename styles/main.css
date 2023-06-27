@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-image: url("/src/images/background.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 5px 10%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.20);
+}
+
+span {
+    color: orange;
+}
+
+.play-btn {
+    height: 80%;
+    background-color: orange;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.steve-head {
+    height: 100%;
+    margin-right: 8px;
+}
+
+.options-menu {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 70px);
+}
+
+.option {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.social-menu {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.social-menu img {
+    opacity: 1;
+    height: 45px;
+    cursor: pointer;
+}
+
+/* Start Social hover */
+.youtube:hover {
+    height: 55px !important;
+}
+
+.tiktok:hover {
+    height: 55px !important;
+}
+
+.instagram:hover {
+    height: 55px !important;
+}
+
+.discord:hover {
+    height: 55px !important;
+}
+/* Social hover end */
+
+
+.copyright {
+    margin-top: 80px;
+    margin: 45px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+}
