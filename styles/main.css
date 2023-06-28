@@ -242,3 +242,8 @@ a {
 .modal-header {
     text-transform: uppercase;
 }
+
+.modal-title {
+    font-size: 26px;
+    font-weight: bold;
+}
