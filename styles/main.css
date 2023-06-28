@@ -142,12 +142,23 @@ span {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
-    padding-bottom: 20px;
+}
+
+.option-subtxt {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.option-ranktxt {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 a {
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .option-image {

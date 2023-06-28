@@ -16,17 +16,17 @@ foro.addEventListener('mouseenter', () => {
     staff.style.transform = 'scale(0.9)';
   });
   
-  foro.addEventListener('mouseleave', () => {
-    foro.style.transform = 'scale(1)';
+foro.addEventListener('mouseleave', () => {
+  foro.style.transform = 'scale(1)';
 
-    tienda.style.opacity = '1';
-    votos.style.opacity = '1';
-    staff.style.opacity = '1';
+  tienda.style.opacity = '1';
+  votos.style.opacity = '1';
+  staff.style.opacity = '1';
 
-    tienda.style.transform = 'scale(1)';
-    votos.style.transform = 'scale(1)';
-    staff.style.transform = 'scale(1)';
-  });
+  tienda.style.transform = 'scale(1)';
+  votos.style.transform = 'scale(1)';
+  staff.style.transform = 'scale(1)';
+});
 
 // Tienda
 tienda.addEventListener('mouseenter', () => {
