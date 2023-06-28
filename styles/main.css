@@ -74,6 +74,10 @@ body{
     transform: scale(1.1);
 }
 
+.nav-info {
+    cursor: pointer;
+}
+
 @media (max-width: 1250px) {
     .play-btn {
         margin: 0 auto;
@@ -121,7 +125,12 @@ body{
     text-transform: uppercase;
 }
 
-.video-link {
+.link {
+    color: #30cc25;
+    text-decoration: underline;
+}
+
+.back-link {
     color: #30cc25;
     text-decoration: underline;
 }
@@ -255,6 +264,12 @@ a {
 }
 
 .modal-title {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.back-div {
+    margin-bottom: 25px;
 }
