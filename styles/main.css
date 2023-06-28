@@ -184,3 +184,11 @@ a {
     font-style: italic;
     text-transform: capitalize;
 }
+
+.modal {
+    color: black;
+}
+
+.modal .ul {
+    padding-top: 50px;
+}
