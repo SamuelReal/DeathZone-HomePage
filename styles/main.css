@@ -23,16 +23,20 @@ body{
 }
 
 .navbar{
-    background-color: rgba(184, 66, 66, 0.20);
+    background-color: rgba(184, 66, 66, 0.55);
     display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     align-content: center;
     height: 80px;
     padding: 5px 10%;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.55);
     font-weight: 600;
     text-transform: uppercase;
+    z-index: 1;
 }
 
 span {
@@ -80,7 +84,7 @@ span {
 }
 
 .logo {
-    margin-top: 20px;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -235,9 +239,4 @@ a {
 
 .modal-header {
     text-transform: uppercase;
-}
-
-.h5 {
-    font-weight: bolder;
-    border: 1px solid red;
 }

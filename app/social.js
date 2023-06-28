@@ -86,3 +86,7 @@ discord.addEventListener('mouseenter', () => {
     tiktok.style.transform = 'scale(1)';
     instagram.style.transform = 'scale(1)';
   });
+
+// Portfolio
+console.log("Este sitio web ha sido desarrollado y diseñado por Samuel Real:");
+console.log("www.samuelreal.com");
