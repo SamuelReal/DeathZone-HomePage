@@ -23,7 +23,7 @@ body{
 }
 
 .navbar{
-    background-color: rgba(255, 255, 255, 0.20);
+    background-color: rgba(184, 66, 66, 0.20);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,13 +102,14 @@ span {
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(184, 66, 66, 0.35);
     text-align: center;
 }
 
 .info-msg {
     padding-left: 20px;
     padding-right: 20px;
+    text-transform: uppercase;
 }
 a {
     color: #CA0001;
@@ -126,7 +127,7 @@ a {
 }
 
 .option-item {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(184, 66, 66, 0.35);
     border-radius: 5px;
     margin: 10px;
     height: 245px;
