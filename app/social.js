@@ -9,9 +9,9 @@ youtube.addEventListener('mouseenter', () => {
     instagram.style.opacity = '0.5';
     discord.style.opacity = '0.5';
 
-    tiktok.style.height = '30px';
-    instagram.style.height = '30px';
-    discord.style.height = '30px';
+    tiktok.style.transform = 'scale(0.9)';
+    instagram.style.transform = 'scale(0.9)';
+    discord.style.transform = 'scale(0.9)';
   });
   
   youtube.addEventListener('mouseleave', () => {
@@ -19,9 +19,9 @@ youtube.addEventListener('mouseenter', () => {
     instagram.style.opacity = '1';
     discord.style.opacity = '1';
 
-    tiktok.style.height = '35px';
-    instagram.style.height = '35px';
-    discord.style.height = '35px';
+    tiktok.style.transform = 'scale(1)';
+    instagram.style.transform = 'scale(1)';
+    discord.style.transform = 'scale(1)';
   });
 
 // TikTok
@@ -30,9 +30,9 @@ tiktok.addEventListener('mouseenter', () => {
     instagram.style.opacity = '0.5';
     discord.style.opacity = '0.5';
 
-    youtube.style.height = '30px';
-    instagram.style.height = '30px';
-    discord.style.height = '30px';
+    youtube.style.transform = 'scale(0.9)';
+    instagram.style.transform = 'scale(0.9)';
+    discord.style.transform = 'scale(0.9)';
   });
   
   tiktok.addEventListener('mouseleave', () => {
@@ -40,9 +40,9 @@ tiktok.addEventListener('mouseenter', () => {
     instagram.style.opacity = '1';
     discord.style.opacity = '1';
 
-    youtube.style.height = '35px';
-    instagram.style.height = '35px';
-    discord.style.height = '35px';
+    youtube.style.transform = 'scale(1)';
+    instagram.style.transform = 'scale(1)';
+    discord.style.transform = 'scale(1)';
   });
 
 // Instagram
@@ -51,9 +51,9 @@ instagram.addEventListener('mouseenter', () => {
     tiktok.style.opacity = '0.5';
     discord.style.opacity = '0.5';
 
-    youtube.style.height = '30px';
-    tiktok.style.height = '30px';
-    discord.style.height = '30px';
+    youtube.style.transform = 'scale(0.9)';
+    tiktok.style.transform = 'scale(0.9)';
+    discord.style.transform = 'scale(0.9)';
   });
   
   instagram.addEventListener('mouseleave', () => {
@@ -61,9 +61,9 @@ instagram.addEventListener('mouseenter', () => {
     tiktok.style.opacity = '1';
     discord.style.opacity = '1';
 
-    youtube.style.height = '35px';
-    tiktok.style.height = '35px';
-    discord.style.height = '35px';
+    youtube.style.transform = 'scale(1)';
+    tiktok.style.transform = 'scale(1)';
+    discord.style.transform = 'scale(1)';
   });
 
 // Discord
@@ -72,9 +72,9 @@ discord.addEventListener('mouseenter', () => {
     tiktok.style.opacity = '0.5';
     instagram.style.opacity = '0.5';
 
-    youtube.style.height = '30px';
-    tiktok.style.height = '30px';
-    instagram.style.height = '30px';
+    youtube.style.transform = 'scale(0.9)';
+    tiktok.style.transform = 'scale(0.9)';
+    instagram.style.transform = 'scale(0.9)';
   });
   
   discord.addEventListener('mouseleave', () => {
@@ -82,7 +82,7 @@ discord.addEventListener('mouseenter', () => {
     tiktok.style.opacity = '1';
     instagram.style.opacity = '1';
 
-    youtube.style.height = '35px';
-    tiktok.style.height = '35px';
-    instagram.style.height = '35px';
+    youtube.style.transform = 'scale(1)';
+    tiktok.style.transform = 'scale(1)';
+    instagram.style.transform = 'scale(1)';
   });

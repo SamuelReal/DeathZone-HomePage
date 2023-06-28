@@ -58,10 +58,11 @@ span {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: transform 0.5s;
 }
 
 .play-btn:hover {
-    height: 90%;
+    transform: scale(1.1);
 }
 
 @media (max-width: 1250px) {
@@ -130,6 +131,7 @@ a {
     margin: 10px;
     height: 245px;
     cursor: pointer;
+    transition: transform 0.5s;
 }
 
 .option-txt {
@@ -166,26 +168,12 @@ a {
     opacity: 1;
     height: 35px;
     cursor: pointer;
+    transition: transform 0.5s;
 }
 
-/* Start Social hover */
-.youtube:hover {
-    height: 40px !important;
+.youtube:hover, .tiktok:hover, .instagram:hover, .discord:hover {
+    transform: scale(1.1);
 }
-
-.tiktok:hover {
-    height: 40px !important;
-}
-
-.instagram:hover {
-    height: 40px !important;
-}
-
-.discord:hover {
-    height: 40px !important;
-}
-/* Social hover end */
-
 
 .copyright {
     margin: 10px auto 20px;
