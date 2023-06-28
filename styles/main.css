@@ -4,16 +4,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
     font-size: 20px;
 }
 
 body{
-    background-image: url("/src/images/background.jpg");
+    font-family: 'Nunito', 'Minecraft', sans-serif;
+    background-image: url("/src/images/background.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
 }
 
 .navbar{
@@ -21,21 +25,32 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    align-content: center;
+    height: 80px;
     padding: 5px 10%;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.20);
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 span {
-    color: orange;
+    color: #30cc25;
+}
+
+.shadow-txt {
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-div {
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.20);
 }
 
 .play-btn {
     height: 80%;
-    background-color: orange;
+    background-color: #CA0001;
     border-radius: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -43,37 +58,102 @@ span {
     cursor: pointer;
 }
 
+.play-btn:hover {
+    height: 90%;
+}
+
+@media (max-width: 1250px) {
+    .play-btn {
+        margin: 0 auto;
+    }
+    .nav-info {
+        display: none;
+    }
+}
+
 .steve-head {
     height: 100%;
     margin-right: 8px;
 }
 
+.logo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo-img {
+    height: 290px;
+    animation: zoomImage 1s linear infinite alternate;
+}
+
+@keyframes zoomImage {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+}
+
+.info-div {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-align: center;
+}
+
+.info-msg {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a {
+    color: #CA0001;
+}
+
 .options-menu {
-    margin-left: 10%;
-    margin-right: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: calc(100vh - 70px);
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Minecraft', 'Nunito', sans-serif;
 }
 
 .option {
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border-radius: 15%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.option-item {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    margin: 10px;
+    height: 245px;
+    cursor: pointer;
+}
+
+.option-txt {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.option-image {
+    height: 180px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding-bottom: 25px;
 }
 
 .social-menu {
-    width: 250px;
-    height: 50px;
+    width: 230px;
+    height: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,32 +162,31 @@ span {
 
 .social-menu img {
     opacity: 1;
-    height: 45px;
+    height: 35px;
     cursor: pointer;
 }
 
 /* Start Social hover */
 .youtube:hover {
-    height: 55px !important;
+    height: 40px !important;
 }
 
 .tiktok:hover {
-    height: 55px !important;
+    height: 40px !important;
 }
 
 .instagram:hover {
-    height: 55px !important;
+    height: 40px !important;
 }
 
 .discord:hover {
-    height: 55px !important;
+    height: 40px !important;
 }
 /* Social hover end */
 
 
 .copyright {
-    margin-top: 80px;
-    margin: 45px auto 0;
+    margin: 10px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
