@@ -39,8 +39,13 @@ body{
     z-index: 1;
 }
 
-span {
+.navbar span {
     color: #30cc25;
+}
+
+.modal span {
+    color: rgba(184, 66, 66, 1);
+    font-weight: bold;
 }
 
 .shadow-txt {
@@ -220,6 +225,12 @@ a {
     font-size: 16px;
     font-style: italic;
     text-transform: capitalize;
+}
+
+.copyright span {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .modal {
