@@ -139,6 +139,8 @@ span {
     height: 245px;
     cursor: pointer;
     transition: transform 0.5s;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 
