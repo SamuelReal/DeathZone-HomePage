@@ -88,5 +88,16 @@ discord.addEventListener('mouseenter', () => {
   });
 
 // Portfolio
-console.log("Este sitio web ha sido desarrollado y diseñado por Samuel Real:");
-console.log("www.samuelreal.com");
+var key = "";
+var keyboardFunction = function() {
+  alert("Este sitio web ha sido desarrollado y diseñado por Samuel Real.");
+};
+
+window.addEventListener("keydown", function(event) {
+  key += event.key;
+  
+  if (key.includes(("samuelreal"))) {
+    keyboardFunction();
+    key = "";
+  }
+});
