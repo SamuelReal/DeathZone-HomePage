@@ -87,17 +87,24 @@ discord.addEventListener('mouseenter', () => {
     instagram.style.transform = 'scale(1)';
   });
 
-// Portfolio
+// Sign
 var key = "";
-var keyboardFunction = function() {
-  alert("Este sitio web ha sido desarrollado y diseñado por Samuel Real.");
+var keyboardFirstFunction = function() {
+  alert("Desarrollador web: Samuel Real (www.samuelreal.com).");
+};
+var keyboardSecondFunction = function() {
+  alert("Desarrollador web: SrWhiteFox (www.samuelreal.com).");
 };
 
 window.addEventListener("keydown", function(event) {
   key += event.key;
   
   if (key.includes(("samuelreal"))) {
-    keyboardFunction();
+    keyboardFirstFunction();
+    key = "";
+  }
+  if (key.includes(("srwhitefox"))) {
+    keyboardSecondFunction();
     key = "";
   }
 });
