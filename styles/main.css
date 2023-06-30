@@ -8,18 +8,27 @@
 }
 
 body{
+    background-color: rgba(184, 66, 66, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
     font-family: 'Nunito', 'Minecraft', sans-serif;
+    margin: 0;
+    position: relative;
+    /* padding-bottom: 200px; */
+}
+
+.content {
     background-image: url("/src/images/background.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    color: white;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
-    margin: 0;
-    position: relative;
-    padding-bottom: 200px;
+    transition: opacity 0.25s ease;
+}
+
+.invisible {
+    opacity: 0;
 }
 
 .navbar{
