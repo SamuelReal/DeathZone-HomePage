@@ -13,6 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/loader.css">
 
     <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
 
@@ -21,6 +22,9 @@
 </head>
 
 <body>
+    <div class="loader" id="loader">
+        <span class="loading"></span>
+    </div>
     <div class="content invisible" id="content">
         <header class="navbar">
             <div class="shadow-txt nav-info">
