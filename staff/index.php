@@ -22,17 +22,17 @@
 </head>
 
 <body>
-    <div div class="loader" id="loader">
+    <div class="loader" id="loader">
         <div class="loading">
-            <div class="loading-box"></div>
-            <div class="loading-box"></div>
-            <div class="loading-box"></div>
-            <div class="loading-box"></div>
-            <div class="loading-box"></div>
-            <div class="loading-box"></div>
-            <div class="loading-box"></div>
-            <div class="loading-box"></div>
-            <div class="loading-box"></div>
+            <div class="loading-cube loading-cube1"></div>
+            <div class="loading-cube loading-cube2"></div>
+            <div class="loading-cube loading-cube3"></div>
+            <div class="loading-cube loading-cube4"></div>
+            <div class="loading-cube loading-cube5"></div>
+            <div class="loading-cube loading-cube6"></div>
+            <div class="loading-cube loading-cube7"></div>
+            <div class="loading-cube loading-cube8"></div>
+            <div class="loading-cube loading-cube9"></div>
         </div>
     </div>
     <div class="content invisible" id="content">
@@ -73,14 +73,14 @@
         <div class="container">
             <div class="options-menu">
                 <div class="row justify-content-center">
-                    <?php foreach ($db->getFirstRank() as $staff) { ?>
+                    <?php foreach ($db->getFirstRow() as $staff) { ?>
                         <div class="col-lg-3 col-md-6 col-sm-12 option">
                             <div class="option-item shadow-div">
                                 <img src="http://cravatar.eu/head/<?= $staff['nickname'] ?>.png" class="option-image">
                                 <div class="option-subtxt">
                                     <?= $staff['nickname'] ?>
                                 </div>
-                                <div class="option-ranktxt">
+                                <div class="option--rowtxt">
                                     <?= $staff['role'] ?>
                                 </div>
                             </div>
@@ -88,14 +88,14 @@
                     <?php } ?>
                 </div>
                 <div class="row justify-content-center">
-                    <?php foreach ($db->getSecondRank() as $staff) { ?>
+                    <?php foreach ($db->getSecondRow() as $staff) { ?>
                         <div class="col-lg-3 col-md-6 col-sm-12 option">
                             <div class="option-item shadow-div">
                                 <img src="http://cravatar.eu/head/<?= $staff['nickname'] ?>.png" class="option-image">
                                 <div class="option-subtxt">
                                     <?= $staff['nickname'] ?>
                                 </div>
-                                <div class="option-ranktxt">
+                                <div class="option--rowtxt">
                                     <?= $staff['role'] ?>
                                 </div>
                             </div>
@@ -103,14 +103,14 @@
                     <?php } ?>
                 </div>
                 <div class="row justify-content-center">
-                    <?php foreach ($db->getThirdRank() as $staff) { ?>
+                    <?php foreach ($db->getThirdRow() as $staff) { ?>
                         <div class="col-lg-3 col-md-6 col-sm-12 option">
                             <div class="option-item shadow-div">
                                 <img src="http://cravatar.eu/head/<?= $staff['nickname'] ?>.png" class="option-image">
                                 <div class="option-subtxt">
                                     <?= $staff['nickname'] ?>
                                 </div>
-                                <div class="option-ranktxt">
+                                <div class="option--rowtxt">
                                     <?= $staff['role'] ?>
                                 </div>
                             </div>
@@ -118,14 +118,14 @@
                     <?php } ?>
                 </div>
                 <div class="row justify-content-center">
-                    <?php foreach ($db->getFourthRank() as $staff) { ?>
+                    <?php foreach ($db->getFourthRow() as $staff) { ?>
                         <div class="col-lg-3 col-md-6 col-sm-12 option">
                             <div class="option-item shadow-div">
                                 <img src="http://cravatar.eu/head/<?= $staff['nickname'] ?>.png" class="option-image">
                                 <div class="option-subtxt">
                                     <?= $staff['nickname'] ?>
                                 </div>
-                                <div class="option-ranktxt">
+                                <div class="option--rowtxt">
                                     <?= $staff['role'] ?>
                                 </div>
                             </div>

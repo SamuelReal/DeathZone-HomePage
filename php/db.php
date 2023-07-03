@@ -35,23 +35,23 @@ class db
     //     return $this->getData($sqlQuery);
     // }
 
-    public function getFirstRank() {
-        $sqlQuery = "SELECT * FROM `firstRank` ORDER BY `order` ASC, `nickname` ASC";
+    public function getFirstRow() {
+        $sqlQuery = "SELECT * FROM `first-row` ORDER BY `order` ASC, `nickname` ASC";
         return $this->getData($sqlQuery);
     }
 
-    public function getSecondRank() {
-        $sqlQuery = "SELECT * FROM `secondRank` ORDER BY `order` ASC, `nickname` ASC";
+    public function getSecondRow() {
+        $sqlQuery = "SELECT * FROM `second-row` ORDER BY `order` ASC, `nickname` ASC";
         return $this->getData($sqlQuery);
     }
 
-    public function getThirdRank() {
-        $sqlQuery = "SELECT * FROM `thirdRank` ORDER BY `order` ASC, `nickname` ASC";
+    public function getThirdRow() {
+        $sqlQuery = "SELECT * FROM `third-row` ORDER BY `order` ASC, `nickname` ASC";
         return $this->getData($sqlQuery);
     }
 
-    public function getFourthRank() {
-        $sqlQuery = "SELECT * FROM `fourthRank` ORDER BY `order` ASC, `nickname` ASC";
+    public function getFourthRow() {
+        $sqlQuery = "SELECT * FROM `fourth-row` ORDER BY `order` ASC, `nickname` ASC";
         return $this->getData($sqlQuery);
     }
 }
