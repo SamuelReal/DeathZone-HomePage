@@ -22,8 +22,18 @@
 </head>
 
 <body>
-    <div class="loader" id="loader">
-        <span class="loading"></span>
+    <div div class="loader" id="loader">
+        <div class="loading">
+            <div class="loading-box"></div>
+            <div class="loading-box"></div>
+            <div class="loading-box"></div>
+            <div class="loading-box"></div>
+            <div class="loading-box"></div>
+            <div class="loading-box"></div>
+            <div class="loading-box"></div>
+            <div class="loading-box"></div>
+            <div class="loading-box"></div>
+        </div>
     </div>
     <div class="content invisible" id="content">
         <header class="navbar">
