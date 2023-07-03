@@ -36,22 +36,22 @@ class db
     // }
 
     public function getFirstRow() {
-        $sqlQuery = "SELECT * FROM `first-row` ORDER BY `order` ASC, `nickname` ASC";
+        $sqlQuery = "SELECT * FROM `first_row` ORDER BY `order` ASC, `nickname` ASC";
         return $this->getData($sqlQuery);
     }
 
     public function getSecondRow() {
-        $sqlQuery = "SELECT * FROM `second-row` ORDER BY `order` ASC, `nickname` ASC";
+        $sqlQuery = "SELECT * FROM `second_row` ORDER BY `order` ASC, `nickname` ASC";
         return $this->getData($sqlQuery);
     }
 
     public function getThirdRow() {
-        $sqlQuery = "SELECT * FROM `third-row` ORDER BY `order` ASC, `nickname` ASC";
+        $sqlQuery = "SELECT * FROM `third_row` ORDER BY `order` ASC, `nickname` ASC";
         return $this->getData($sqlQuery);
     }
 
     public function getFourthRow() {
-        $sqlQuery = "SELECT * FROM `fourth-row` ORDER BY `order` ASC, `nickname` ASC";
+        $sqlQuery = "SELECT * FROM `fourth_row` ORDER BY `order` ASC, `nickname` ASC";
         return $this->getData($sqlQuery);
     }
 }
