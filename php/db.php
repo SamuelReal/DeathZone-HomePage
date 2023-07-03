@@ -29,8 +29,29 @@ class db
         }
         return $data;
     }
-    public function getStaffs() {
-        $sqlQuery = "SELECT * FROM `staffs` ORDER BY `order` ASC, `nickname` ASC";
+
+    // public function getStaffs() {
+    //     $sqlQuery = "SELECT * FROM `staffs` ORDER BY `order` ASC, `nickname` ASC";
+    //     return $this->getData($sqlQuery);
+    // }
+
+    public function getFirstRank() {
+        $sqlQuery = "SELECT * FROM `firstRank` ORDER BY `order` ASC, `nickname` ASC";
+        return $this->getData($sqlQuery);
+    }
+
+    public function getSecondRank() {
+        $sqlQuery = "SELECT * FROM `secondRank` ORDER BY `order` ASC, `nickname` ASC";
+        return $this->getData($sqlQuery);
+    }
+
+    public function getThirdRank() {
+        $sqlQuery = "SELECT * FROM `thirdRank` ORDER BY `order` ASC, `nickname` ASC";
+        return $this->getData($sqlQuery);
+    }
+
+    public function getFourthRank() {
+        $sqlQuery = "SELECT * FROM `fourthRank` ORDER BY `order` ASC, `nickname` ASC";
         return $this->getData($sqlQuery);
     }
 }

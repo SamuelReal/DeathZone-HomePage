@@ -70,21 +70,68 @@
             </div>
         </div>
 
-        <div class="container options-menu">
-            <div class="row">
-                <?php foreach ($db->getStaffs() as $staff) { ?>
-                    <div class="col-lg-3 col-md-6 col-sm-12 option">
-                        <div class="option-item shadow-div">
-                            <img src="http://cravatar.eu/head/<?= $staff['nickname'] ?>.png" class="option-image">
-                            <div class="option-subtxt">
-                                <?= $staff['nickname'] ?>
-                            </div>
-                            <div class="option-ranktxt">
-                                <?= $staff['role'] ?>
+        <div class="container">
+            <div class="options-menu">
+                <div class="row justify-content-center">
+                    <?php foreach ($db->getFirstRank() as $staff) { ?>
+                        <div class="col-lg-3 col-md-6 col-sm-12 option">
+                            <div class="option-item shadow-div">
+                                <img src="http://cravatar.eu/head/<?= $staff['nickname'] ?>.png" class="option-image">
+                                <div class="option-subtxt">
+                                    <?= $staff['nickname'] ?>
+                                </div>
+                                <div class="option-ranktxt">
+                                    <?= $staff['role'] ?>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                <?php } ?>
+                    <?php } ?>
+                </div>
+                <div class="row justify-content-center">
+                    <?php foreach ($db->getSecondRank() as $staff) { ?>
+                        <div class="col-lg-3 col-md-6 col-sm-12 option">
+                            <div class="option-item shadow-div">
+                                <img src="http://cravatar.eu/head/<?= $staff['nickname'] ?>.png" class="option-image">
+                                <div class="option-subtxt">
+                                    <?= $staff['nickname'] ?>
+                                </div>
+                                <div class="option-ranktxt">
+                                    <?= $staff['role'] ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
+                <div class="row justify-content-center">
+                    <?php foreach ($db->getThirdRank() as $staff) { ?>
+                        <div class="col-lg-3 col-md-6 col-sm-12 option">
+                            <div class="option-item shadow-div">
+                                <img src="http://cravatar.eu/head/<?= $staff['nickname'] ?>.png" class="option-image">
+                                <div class="option-subtxt">
+                                    <?= $staff['nickname'] ?>
+                                </div>
+                                <div class="option-ranktxt">
+                                    <?= $staff['role'] ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
+                <div class="row justify-content-center">
+                    <?php foreach ($db->getFourthRank() as $staff) { ?>
+                        <div class="col-lg-3 col-md-6 col-sm-12 option">
+                            <div class="option-item shadow-div">
+                                <img src="http://cravatar.eu/head/<?= $staff['nickname'] ?>.png" class="option-image">
+                                <div class="option-subtxt">
+                                    <?= $staff['nickname'] ?>
+                                </div>
+                                <div class="option-ranktxt">
+                                    <?= $staff['role'] ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
             </div>
         </div>
 
