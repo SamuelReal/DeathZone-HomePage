@@ -2,10 +2,10 @@
 
 class db
 {
-    private $host = '51.83.47.197';
-    private $user = 'deathzone.net';
-    private $password = "YIuTm7OLq-b12q9.";
-    private $database = "deathzone.net";
+    private $host = '185.73.243.45:25565';
+    private $user = 'u10245_m9hdx9Rzh6';
+    private $password = "Y!^RVT7iYZIWl6Mu!j0U2ZRL";
+    private $database = "DeathZone_Network";
     private $dbConnect = false;
     public function __construct() {
         if (!$this->dbConnect) {
@@ -29,11 +29,6 @@ class db
         }
         return $data;
     }
-
-    // public function getStaffs() {
-    //     $sqlQuery = "SELECT * FROM `staffs` ORDER BY `order` ASC, `nickname` ASC";
-    //     return $this->getData($sqlQuery);
-    // }
 
     public function getFirstRow() {
         $sqlQuery = "SELECT * FROM `first_row` ORDER BY `order` ASC, `nickname` ASC";
