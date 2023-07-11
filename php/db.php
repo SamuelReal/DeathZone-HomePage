@@ -5,7 +5,7 @@ class db
     private $host = '185.73.243.45:25565';
     private $user = 'u10245_m9hdx9Rzh6';
     private $password = "Y!^RVT7iYZIWl6Mu!j0U2ZRL";
-    private $database = "DeathZone_Network";
+    private $database = "s10245_WEB";
     private $dbConnect = false;
     public function __construct() {
         if (!$this->dbConnect) {
